@@ -1,6 +1,6 @@
 function calcolaPrezzo() {
-    let kmDaPercorrere = parseFloat(document.getElementById("kmInput"));
-    let etaUtente = parseInt(document.getElementById("etaInput"));
+    let kmDaPercorrere = parseFloat(document.getElementById("kmInput").value);
+    let etaUtente = parseInt(document.getElementById("etaInput").value);
 
     let prezzoBase = kmDaPercorrere * 0.267113; 
     let sconto = 0; 
